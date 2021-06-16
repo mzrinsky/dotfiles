@@ -10,7 +10,7 @@ If you find this useful, consider showing you care.
 
 ## Screenshot
 
-Take a look at the [screenshot branch](/mzrinsky/dotfiles/tree/screenshot "screenshot branch") to see the images.
+Take a look at the [screenshot branch](/../tree/screenshot "screenshot branch") to see the images.
 
 ![Fish and .dircolors example](/../screenshot/fish_dircolors.png?raw=true "Fisn and .dircolors exmaple")
 
