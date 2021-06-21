@@ -1,3 +1,21 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#                                                                             #
+#    Copyright (C) 2016-2020 Chuan Ji <chuan@jichu4n.com>                     #
+#                                                                             #
+#    Licensed under the Apache License, Version 2.0 (the "License");          #
+#    you may not use this file except in compliance with the License.         #
+#    You may obtain a copy of the License at                                  #
+#                                                                             #
+#     http://www.apache.org/licenses/LICENSE-2.0                              #
+#                                                                             #
+#    Unless required by applicable law or agreed to in writing, software      #
+#    distributed under the License is distributed on an "AS IS" BASIS,        #
+#    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. #
+#    See the License for the specific language governing permissions and      #
+#    limitations under the License.                                           #
+#                                                                             #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
 # This is based on the excellent work by Chuan Ji
 # https://github.com/jichu4n/fish-command-timer
 #
@@ -8,6 +26,12 @@
 #
 # My modified version lives in my dotfiles..
 # https://github.com/mzrinsky/dotfiles
+#
+# IANAL, however it is my understanding that because the original function came
+# from an apache liscensed work, this must also carry that liscense, even if
+# modified in some way.
+#
+
 function fish_cmd_pre --on-event fish_preexec
 	echo -e "\n  "(set_color "$fish_color_gray")"exec started"(set_color "$fish_color_light_gray")" @ "(set_color "$fish_color_gray")(date '+%m/%d/%Y %r')(set_color normal)"\n"
 end
@@ -45,3 +69,4 @@ function fish_cmd_timer --on-event fish_postexec
 	echo -e "\n  "(set_color "$fish_color_dark_gray")"exec took $time_str"
 
 end
+
