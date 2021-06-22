@@ -12,5 +12,7 @@ If you find this useful, consider showing you care.
 
 Take a look at the [screenshot branch](/../../tree/screenshot "screenshot branch") to see the images.
 
-![Fish and .dircolors example](/../screenshot/fish_dircolors.png?raw=true "Fisn and .dircolors exmaple")
+This just shows my fish colors, dircolors, and that the exit status of the last command is reflected in the prompt arrow color.
+
+![Fish and .dircolors example](/../screenshot/fish_shell_example.gif?raw=true "Fish and .dircolors exmaple")
 
